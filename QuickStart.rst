@@ -248,7 +248,7 @@ Data-driven tests
 -----------------
 
 Quite often several test cases are otherwise similar but they have slightly
-different input or output data. In these situations *data-driven tests*
+different input or output data. In these situations, *data-driven tests*
 allows varying the test data without duplicating the workflow. With Robot
 Framework the `[Template]` setting turns a test case into a data-driven test
 where the template keyword is executed using the data defined in the test case
@@ -392,7 +392,7 @@ variable definition is quite simple, as seen in this variable table:
     ${PWD INVALID CONTENT}    Password must be a combination of lowercase and uppercase letters and numbers
 
 Variables can also be given from the command line which is useful if
-the tests need to be executed in different environments. For example
+the tests need to be executed in different environments. For example,
 this demo can be executed like::
 
    robot --variable USERNAME:johndoe --variable PASSWORD:J0hnD0e QuickStart.rst
@@ -453,7 +453,7 @@ Setups and teardowns
 
 If you want certain keywords to be executed before or after each test,
 use the `Test Setup` and `Test Teardown` settings in the settings table.
-Similarly you can use the `Suite Setup` and `Suite Teardown` settings to
+Similarly, you can use the `Suite Setup` and `Suite Teardown` settings to
 specify keywords to be executed before and/or after an entire test suite.
 
 Individual tests can also have a custom setup or teardown by using `[Setup]`
